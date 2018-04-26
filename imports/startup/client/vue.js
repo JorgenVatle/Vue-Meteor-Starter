@@ -1,6 +1,7 @@
 import { Meteor } from 'meteor/meteor';
 import VueMeteorTracker from 'vue-meteor-tracker';
 import Vue from 'vue';
+import Buefy from 'buefy';
 
 import AsApp from '../../ui/AsApp.vue';
 import routerFactory from './routes';
@@ -12,6 +13,12 @@ Meteor.startup(() => {
      * @link https://github.com/meteor-vue/vue-meteor-tracker
      */
     Vue.use(VueMeteorTracker);
+
+    /**
+     * Buefy
+     * @link https://buefy.github.io/#/
+     */
+    Vue.use(Buefy);
 
     /**
      * Global Vue Event Bus
