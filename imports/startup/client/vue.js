@@ -6,8 +6,6 @@ import routerFactory from './routes';
 
 Meteor.startup(() => {
 
-    const router = routerFactory.create();
-
     /**
      * Global Vue Event Bus
      */
@@ -19,7 +17,7 @@ Meteor.startup(() => {
     new Vue({
         el: '#app',
         render: h => h(AsApp),
-        router,
+        router: routerFactory.create(),
     })
 
 });
