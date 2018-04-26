@@ -2,6 +2,7 @@ import { Meteor } from 'meteor/meteor';
 import VueMeteorTracker from 'vue-meteor-tracker';
 import Vue from 'vue';
 import Buefy from 'buefy';
+import 'buefy/lib/buefy.css';
 
 import AsApp from '../../ui/AsApp.vue';
 import routerFactory from './routes';
