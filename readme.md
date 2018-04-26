@@ -1,5 +1,6 @@
 # Vue & Meteor Starter Project
-Originally intended for internal use.
+Originally intended for internal use, but feel free to use it for bootstrapping your own projects if you find it useful. :+1:
+
 This project aims to set you up with the essentials needed to get started quickly with [Vue](https://vuejs.org/)
 and [Meteor](https://www.meteor.com/).
 
