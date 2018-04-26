@@ -1,5 +1,5 @@
 import { Meteor } from 'meteor/meteor';
-import { Vue } from 'meteor/akryum:vue';
+import Vue from 'vue';
 
 import AsApp from '../../ui/AsApp.vue';
 import routerFactory from './routes';
