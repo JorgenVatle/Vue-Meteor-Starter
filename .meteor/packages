@@ -24,7 +24,6 @@ check
 ddp-rate-limiter
 http
 
-akryum:vue
 akryum:vue-component
 akryum:vue-router2
 
