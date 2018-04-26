@@ -1,0 +1,20 @@
+{
+  "name": "Blank-Vue-Meteor-App",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "dev": "set \"MONGO_URL=\" && meteor run --port 8000",
+    "test": "meteor test --once --driver-package meteortesting:mocha"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.36",
+    "buefy": "^0.6.3",
+    "meteor-node-stubs": "^0.3.2",
+    "vue": "^2.0.0",
+    "vue-meteor-tracker": "^1.0.3",
+    "vue-router": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2"
+  }
+}
