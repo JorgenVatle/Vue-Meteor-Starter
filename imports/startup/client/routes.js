@@ -20,6 +20,14 @@ RouterFactory.configure((factory) => {
                     component: AsLanding,
                 }
             ]
+        },
+
+        /**
+         * Redirect undefined routes (404s) back to the landing page.
+         */
+        {
+            path: '*',
+            redirect: '/',
         }
     ]);
 });
